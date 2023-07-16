@@ -20,10 +20,10 @@ To start the bot, simply run `python bot.py` in your terminal.
 
 ## Usage
 
-After inviting the bot to your Discord server, you can ask it a question with the command `!frage <your question here>`. For example:
+After inviting the bot to your Discord server, you can ask it a question with the command `!question <your question here>`. For example:
 
 ```
-!frage What is the Python language?
+!question What is the Python language?
 ```
 
 The bot will process your question, retrieve relevant documents, and generate a suitable response using the OpenAI language model.

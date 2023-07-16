@@ -40,7 +40,7 @@ intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 @bot.command()
-async def frage(ctx, *, question):
+async def question(ctx, *, question):
     try:
         docs = retriever.get_relevant_documents(query=question)
         formatted_prompt = system_message_prompt.format(context=docs)
